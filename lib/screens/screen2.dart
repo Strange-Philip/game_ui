@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:game_ui/components/dino_alert.dart';
-import 'package:game_ui/components/leaderboard.dart';
-import 'package:game_ui/constants/app_colors.dart';
-import 'package:game_ui/components/close_button.dart';
-import '../components/board.dart';
+import 'package:game_ui/components/buy_coins_bar.dart';
+import 'package:game_ui/components/gridview.dart';
 
-class ScreenOne extends StatelessWidget {
-  const ScreenOne({super.key});
+import '../components/alert2.dart';
+import '../constants/app_colors.dart';
+
+class ScreenTwo extends StatelessWidget {
+  const ScreenTwo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -16,6 +16,7 @@ class ScreenOne extends StatelessWidget {
         backgroundColor: AppColors.backgroundBlue,
         elevation: 0,
         toolbarHeight: 20,
+        automaticallyImplyLeading: false,
       ),
       body: Stack(
         children: [
@@ -32,15 +33,11 @@ class ScreenOne extends StatelessWidget {
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.end,
-                children: [
-                  Align(alignment: Alignment.centerRight, child: GameCloseButton()),
-                  LeaderBoard(),
-                  BoardList(),
-                ],
+                children: [BuyCoinsBar(), GridForScreen()],
               ),
             ),
           ),
-          const Align(alignment: Alignment.bottomCenter, child: DinoAlert()),
+          const Align(alignment: Alignment.bottomRight, child: DinoAlert2()),
         ],
       ),
     );

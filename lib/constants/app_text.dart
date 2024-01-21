@@ -14,7 +14,10 @@ class AppTypography {
         fontWeight: FontWeight.w700,
         fontSize: 18,
       );
-        /// bold  TextStyle styles
+  TextStyle get largerBody => baseTextStyle.copyWith(
+        fontWeight: FontWeight.w700,
+        fontSize: 20,
+      );
   TextStyle get body => baseTextStyle.copyWith(
         fontWeight: FontWeight.w700,
         fontSize: 14,
