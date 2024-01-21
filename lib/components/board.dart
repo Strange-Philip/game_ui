@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_ui/components/board_card.dart';
 import 'package:game_ui/constants/app_colors.dart';
 import 'package:game_ui/constants/app_text.dart';
 
@@ -78,7 +79,38 @@ class BoardList extends StatelessWidget {
                       ),
                     ],
                   ),
-                )
+                ),
+                const BoardCard(
+                  rank: 1,
+                  name: 'UXDERRICK',
+                  points: 4030,
+                  avatar: 'assets/images/panda.png',
+                ),
+                const BoardCard(
+                  rank: 2,
+                  name: 'dragon64',
+                  points: 3900,
+                  avatar: 'assets/images/human.png',
+                ),
+                const BoardCard(
+                  rank: 3,
+                  name: 'ghana_09',
+                  points: 2233,
+                  avatar: 'assets/images/bunny.png',
+                ),
+                const BoardCard(
+                  rank: 4,
+                  name: 'hey__ok',
+                  points: 1239,
+                  avatar: 'assets/images/astraunant.png',
+                ),
+                const BoardCard(
+                  rank: 5,
+                  name: 'you',
+                  points: 335,
+                  avatar: 'assets/images/mascot.png',
+                  you: true,
+                ),
               ],
             ),
           ),
