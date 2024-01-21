@@ -9,6 +9,6 @@ Feel free to clone the project and play around with it.I tried to organize the c
 Dont forget to give it a star ⭐️ if you like it.
 
 ## 📸Screenshots
-<img width="450" height="900" src="https://github.com/Strange-Philip/music_app_ui/blob/main/asset/homepage.png">
-<img width="450" height="900" src="https://github.com/Strange-Philip/music_app_ui/blob/main/asset/lyrics_shot.png">
+<img width="450" height="900" src="https://github.com/Strange-Philip/game_ui/blob/main/assets/screenshot1.png">
+<img width="450" height="900" src="https://github.com/Strange-Philip/game_ui/blob/main/assets/screenshot2.png">
 
